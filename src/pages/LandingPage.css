@@ -1,0 +1,30 @@
+.landing-page {
+    background-image: url('/images/background.jpg');
+    background-size: cover;
+    text-align: center;
+    padding: 50px;
+    color: white;
+}
+
+.landing-page h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.landing-page p {
+    font-size: 24px;
+    margin-bottom: 40px;
+}
+
+.landing-page button {
+    font-size: 20px;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.landing-page button:hover {
+    background-color: #45a049;
+}
