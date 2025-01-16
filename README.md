@@ -1,7 +1,3 @@
-<!-- Improved compatibility of back to top link: See: https://github.com/othneildrew/Best-README-Template/pull/73 -->
-
-<a id="readme-top"></a>
-
 # Paradise Nursery Shopping Cart App
 
 ## Introduction
@@ -37,8 +33,6 @@ For this project, I used:
 - Redux (with Redux Toolkit)
 - Web Hosting: GitHub Pages
 - IBM Cloud IDE (based on Theia and Container)
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-<br>
 
 ## Getting Started
 
@@ -67,15 +61,15 @@ npm install
 npm run preview
 ```
 
-5. Stop the application with Ctrl + C. Repeat step 4 to see changes.<br>
+This command will start the application server and make the app accessible at `http://localhost:4173`. In the IBM Cloud IDE, you can specify the port number (4173 in this case) and start the application directly from the IDE interface, which simplifies the process.
+
+**Note:** `npm run preview` is typically used to preview the production build of the application. It serves the app as it would be in a live environment. On the other hand, `npm run start` is used during development. It starts a development server with features like hot module replacement, which allows you to see changes in real-time as you edit the code.
+
+5. Stop the application with Ctrl + C. Repeat step 4 to see changes.
+   <br>
    <br>
    To deploy changes to the hosted GitHub Pages website, first install the required packages as in step 3. Then run:
 
 ```
 npm run deploy
 ```
-
-This commits changes to the gh-pages branch and updates the website. A success message will appear in the terminal:
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-<br>
